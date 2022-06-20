@@ -11,9 +11,12 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-const average = () => {
+const average = (array) => {
+  const verifyIsOnlyNumber = array.every((index) => typeof index === 'number');
+  const sum = array.reduce((acc, curr) => acc + curr, 0);
+  const result = sum / array.length;
 
-  
+   return verifyIsOnlyNumber === false || array.length === 0 ? undefined : Math.round(result);
 };
 
 module.exports = average;
