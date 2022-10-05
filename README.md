@@ -1,45 +1,45 @@
 
-Neste Projeto implementamos várias funções na resolução dos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas, de acordo com o que está sendo solicitado em cada enunciado.
+In this Project we implemented several functions in the resolution of the proposed requirements and/or unit tests to guarantee that the implementations of the functions are correct, according to what is being requested in each statement.
 
-Nesse projeto, fomos capazes de:
+In this project, we were able to:
 
-Escrever testes unitários utilizando o módulo Jest do NodeJS para verificar o correto funcionamento das funções;
-Escrever funções de forma que elas atendam a testes já implementados;
-Escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.
-
-
-
-1. Implemente a função average
-A função average recebe um array de tamanho variável e retorna a média dos valores recebidos. Caso a função receba algum valor não numérico ou um array vazio, o valor `undefined` deve ser retornado.
-
-Todos os resultados devem ser arredondados para valores inteiros. Ex: 4,6 vira 5; 1,3 vira 1. O arquivo average.spec.js contém os testes para average já implementados. Implemente a função no arquivo src/average.js de forma que ela atenda aos testes propostos.
+Write unit tests using the NodeJS Jest module to verify the correct functioning of the functions;
+Write functions so that they meet already implemented tests;
+Write tests and functions using a test-driven development approach.
 
 
-2. Implemente os casos de teste para a função numbers
-A função `numbers` recebe um array de tamanho variável e retorna `true` se todos os parâmetros forem do tipo 'number' e `false` caso contrário.
 
-3. Implemente a função vqv
-Use template literals para escrever uma função que recebe o seu nome e a sua idade e retorna o parágrafo descrito abaixo:
+1. Implement the average function
+The average function takes a variable-length array and returns the average of the values ​​received. If the function receives some non-numeric value or an empty array, the value `undefined` must be returned.
 
-4. Implemente os casos de teste para a função circle
-A função `circle` recebe o raio de um círculo e retorna um objeto contendo as suas informações: Raio, Área e Circunferência. Se não for especificado um raio, a função retorna `undefined`.
+All results must be rounded to integers. Ex: 4.6 becomes 5; 1.3 becomes 1. The average.spec.js file contains the tests for average already implemented. Implement the function in the src/average.js file so that it meets the proposed tests.
 
 
-5. Implemente a função createStudent
-A função `createStudent` recebe como parâmetro um **nome**, e retorna um objeto contendo duas chaves:
+2. Implement the test cases for the numbers function
+The `numbers` function takes a variable-length array and returns `true` if all parameters are of type 'number' and `false` otherwise.
 
-name, contendo o nome passado como parâmetro;
-feedback, contendo uma função que retorna a frase 'Eita pessoa boa!' ao ser chamada.
+3. Implement the vqv function
+Use template literals to write a function that takes its name and age and returns the paragraph described below:
 
-6. Implemente os casos de teste para a função productDetails
+4. Implement the test cases for the circle function
+The `circle` function receives the radius of a circle and returns an object containing its information: Radius, Area and Circumference. If no radius is specified, the function returns `undefined`.
 
-7. Implemente as funções calculator e arrayGenerator
 
-8. Implemente a função myCounter
-A função myCounter possui dois loops aninhados que inserem valores dentro de um array. Como podemos perceber, eles vão adicionando valores ao array até sua condição de parada.
+5. Implement the createStudent function
+The `createStudent` function takes a **name** as a parameter, and returns an object containing two keys:
 
-9. Implemente os casos de teste para a função getCharacter
-A função `getCharacter` recebe uma string que representa o nome de uma personagem e retorna um objeto contendo o seu nome, a sua classe e as suas frases.
+name, containing the name passed as a parameter;
+feedback, containing a function that returns the phrase 'Hey good person!' when being called.
 
-10. Implemente a função createMenu, bem como seus casos de teste
-Esse último requisito vai guiar você por um rico processo de Desenvolvimento Orientado a Testes ou TDD - Test Driven Development
+6. Implement the test cases for the productDetails function
+
+7. Implement calculator and arrayGenerator functions
+
+8. Implement the myCounter function
+The myCounter function has two nested loops that insert values ​​into an array. As we can see, they add values ​​to the array until its stop condition.
+
+9. Implement the test cases for the getCharacter function
+The `getCharacter` function receives a string representing the name of a character and returns an object containing its name, its class and its phrases.
+
+10. Implement the createMenu function as well as your test cases
+This last requirement will guide you through a rich process of Test Driven Development or TDD - Test Driven Development
